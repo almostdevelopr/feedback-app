@@ -1,4 +1,9 @@
 function App() {
-	return <h1>Hi from the app component</h1>;
+	return (
+		<>
+			<h1 className="myapp">My App</h1>
+			<p>Henlo</p>
+		</>
+	);
 }
 export default App;
