@@ -1,0 +1,3 @@
+Notes from the project :
+    1. index.html : <div id='root'></div> -> insert front end from index.js
+    2. index.js : entry point of the appliaction
