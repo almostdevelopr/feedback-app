@@ -1,13 +1,10 @@
-import React from "react";
-
-function Header() {
-	return (
-		<Header>
-			<div className="container">
-				<h2>Feedback UI</h2>
-			</div>
-		</Header>
-	);
-}
-
-export default Header;
+// function Header({ text }) {
+// 	return (
+// 		<Header>
+// 			<div className="container">
+// 				<h2>{text}</h2>
+// 			</div>
+// 		</Header>
+// 	);
+// }
+// export default Header;
