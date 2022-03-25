@@ -7,4 +7,8 @@ function Header({ text }) {
 		</Header>
 	);
 }
+
+Header.defaultProps = {
+	text: "Feedback UI",
+};
 export default Header;
