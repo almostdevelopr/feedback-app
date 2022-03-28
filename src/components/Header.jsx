@@ -13,11 +13,14 @@ function Header({ text, bgColor, textColor }) {
 	);
 }
 
+// we can pass/use default properties
 Header.defaultProps = {
 	text: "Feedback UI",
 	bgColor: "rgba(0,0,0,0.4)",
 	textColor: "#ff6a95",
 };
+
+// to manage properties types
 Header.propTypes = {
 	text: PropTypes.string,
 	bgColor: PropTypes.string,
