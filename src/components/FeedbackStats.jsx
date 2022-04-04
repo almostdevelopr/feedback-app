@@ -20,8 +20,8 @@ function FeedbackStats() {
 	);
 }
 
-FeedbackStats.propTypes = {
-	feedback: PropTypes.array.isRequired,
-};
+// FeedbackStats.propTypes = {
+// 	feedback: PropTypes.array.isRequired,
+// };
 
 export default FeedbackStats;
