@@ -1,7 +1,11 @@
 import PropTypes from "prop-types";
+import { useContext } from "react";
 import FeedbackItem from "./FeedbackItem";
+import FeedbackContext from "../context/FeedbackContext";
 
-function FeedbackList({ feedback }) {
+function FeedbackList() {
+	const { feedback } = useContext(FeedbackContext);
+
 	if (!feedback || feedback.length === 0) {
 		return <p>No Feedback Yet</p>;
 	}
