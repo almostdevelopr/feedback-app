@@ -22,7 +22,7 @@ export const FeedbackProvider = ({ children }) => {
 		},
 	]);
 
-	const [feedbackEdit, setFeedbackEdit] = useState({
+	const [setFeedbackEdit] = useState({
 		item: {},
 		edit: false,
 	});
