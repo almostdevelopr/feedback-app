@@ -13,7 +13,7 @@ function FeedbackItem({ item }) {
 			<button className="close">
 				<FaTimes color="purple" />
 			</button>
-			<button onClick={() => editFeedback(item)} className="edit">
+			<button onClick={() => {}} className="edit">
 				<FaEdit color="purple" />
 			</button>
 			<div className="text-display">{item.text}</div>
